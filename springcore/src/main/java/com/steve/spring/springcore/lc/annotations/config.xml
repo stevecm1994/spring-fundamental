@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<bean name="patient"
+		class="com.steve.spring.springcore.lc.annotations.Patient" p:id="001" />
+	
+	<!-- Just enables all the  annotations in spring . Most commonly used -->
+	<context:annotation-config/>	
+	
+	<!-- Just enables only common annotations like postconstruct and predestroy 
+	<bean
+		class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor" />  -->
+		
+</beans>

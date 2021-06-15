@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<bean name="cardealer"
+		class="com.steve.spring.springcore.set.CarDealer">
+		<property name="name">
+			<value>Kerala Dealer</value>
+		</property>
+		<property name="models">
+			<set> <!-- By Default LinkedHashSet , If only one element no need of set tag -->
+				<value>TATA</value>
+				<value>Nissan</value>
+				<value>Honda</value>
+			</set>
+		</property>
+	</bean>
+</beans>
