@@ -16,7 +16,7 @@
 	<tx:annotation-driven />
 
 	<context:component-scan
-		base-package="com.steve.spring.springorm" />
+		base-package="com.steve.spring.springmvcorm.user" />
 
 	<!-- This bean dependency required for sessionFactory bean -->
 	<bean
@@ -41,7 +41,7 @@
 		</property>
 		<property name="annotatedClasses">
 			<list>
-				<value>com.steve.spring.springorm.product.entity.Product</value>
+				<value>com.steve.spring.springmvcorm.user.entity.User</value>
 			</list>
 		</property>
 	</bean>
