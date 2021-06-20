@@ -1,20 +1,16 @@
-/target/
-
-*.settings/
-
-# Eclipse Core
+# Eclipse files #
+#################
 .project
 
-### Eclipse ###
-*.pydevproject
-.metadata
-.gradle
-bin/
-tmp/
-*.tmp
-*.bak
-*.swp
-*~.nib
-local.properties
-.settings/
-.loadpath
+
+# Miscellaneous files #
+#######################
+.DS_Store*
+*.log
+nb*.xml
+*.project
+target
+Thumbs.db
+*.settings
+*.classpath
+
