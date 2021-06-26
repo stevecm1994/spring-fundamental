@@ -1,1 +1,16 @@
-/target/
+# Eclipse files #
+#################
+.project
+
+
+# Miscellaneous files #
+#######################
+.DS_Store*
+*.log
+nb*.xml
+*.project
+target
+Thumbs.db
+*.settings
+*.classpath
+
